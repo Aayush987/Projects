@@ -29,3 +29,20 @@ arr2 = []
 arr3 = []
 arr4 = []
 }
+
+function copy1() {
+        pass1.select();
+        navigator.clipboard.writeText((pass1).value);
+}
+function copy2() {
+    pass2.select();
+    navigator.clipboard.writeText((pass2).value);
+}
+function copy3() {
+    pass3.select();
+    navigator.clipboard.writeText((pass3).value);
+}
+function copy4() {
+    pass4.select();
+    navigator.clipboard.writeText((pass4).value);
+}
