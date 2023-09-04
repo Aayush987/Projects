@@ -1,9 +1,40 @@
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <!-- <link rel="stylesheet" href="index.css"> -->
+        <script src="https://cdn.tailwindcss.com"></script>
     </head>
-    <body> 
-        <h1 align = "center">Generate a 
+    <body class = "bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% "> 
+        <div class = "max-w-lg flex flex-col text-center bg-green-400 max-h-lg mx-auto my-4 place-content-center p-20 rounded-lg drop-shadow-lg border-4 border-black">
+            <h2 class = "text-2xl text-green-50 font-mono font-bold my-10">Random Password Generator</h2>
+            <textarea id = "password-1" class = "rounded-2xl border-4 p-1 font-serif bg-green-950 text-green-300 text-center">a@486b?*7676</textarea>
+            <textarea id = "password-2" class = "rounded-2xl border-4 p-1 font-serif bg-green-950 text-green-300 text-center">a@486b?*7676</textarea>
+            <textarea id = "password-3" class = "rounded-2xl border-4 p-1 font-serif bg-green-950 text-green-300 text-center">a@486b?*7676</textarea>
+            <textarea id = "password-4" class = "rounded-2xl border-4 p-1 font-serif bg-green-950 text-green-300 text-center">asncoi@#*(^&)</textarea>
+            <button id = "password" onclick="generate()" class = "font-mono rounded-2xl border-4 p-3 my-5 border-green-900 hover:bg-green-900 hover:border-green-400 hover:text-green-100 transform">Generate random Passwords</button>
+                <div>
+                <button onclick="copy1()" class = "font-mono rounded-md border-4 p-2 border-green-900 hover:bg-green-900 hover:border-green-400 hover:text-green-100 transform">Copy passwd 1</button>
+                <button onclick="copy2()" class = "font-mono rounded-md border-4 p-2 border-green-900 hover:bg-green-900 hover:border-green-400 hover:text-green-100 transform">Copy passwd 2</button>
+                <button onclick="copy3()" class = "font-mono rounded-md border-4 p-2 border-green-900 hover:bg-green-900 hover:border-green-400 hover:text-green-100 transform">Copy passwd 3</button>
+                <button onclick="copy4()" class = "font-mono rounded-md border-4 p-2 border-green-900 hover:bg-green-900 hover:border-green-400 hover:text-green-100 transform">Copy passwd 4</button>
+                </div>
+            </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <h1 align = "center">Generate a 
             <br><div id ="al">random password</div>
         </h1>
         <h2 align = "center"><b>Never use an insecure password again.</b></h2>
@@ -20,7 +51,7 @@
 
         <textarea id ="password-4">Password-4</textarea>
             <button onclick="copy4()">Copy Password-4</button>
-        </div>  
+        </div>   -->
         <script src="index.js"></script>
     </body>
 </html>
